@@ -1,0 +1,95 @@
+:root {
+  --color-primary: #d30018;
+  --color-secondary: #343434;
+  --color-icons: #a69494;
+  --heading: black;
+  --color-body: #3b3b3b;
+  --unchecked-star: rgb(246, 246, 195);
+  --font-family-primary: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica,
+    sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+}
+
+/* All Elements */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography*/
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-family-primary);
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--color-body);
+}
+
+/*Images*/
+
+/**** List of COMPONENTS */
+
+/* Callout  */
+.callout {
+  margin: 0;
+}
+.callout__stripe {
+  background-color: var(--color-secondary);
+  display: grid;
+  grid-template-columns: 25% 60% 15%;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.callout__stripe:hover {
+  background-color: var(--color-primary);
+}
+
+.callout__img {
+  max-width: 90px;
+  max-height: 70px;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.callout__text {
+  color: white;
+  font-size: small;
+}
+
+.callout__text h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.callout__text p {
+  margin-top: 0.1rem;
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+.callout__chevron {
+  justify-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .callout__img {
+    max-width: 120px;
+    max-height: 100px;
+  }
+  .callout__text h2 {
+    font-size: 1.8rem;
+  }
+  .callout__text p {
+    font-size: 1.6rem;
+  }
+}
