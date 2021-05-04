@@ -1,0 +1,18 @@
+.btn {
+  padding: 1rem 2.5rem;
+  min-width: 10ch;
+  min-height: 44px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.form .btn {
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+}

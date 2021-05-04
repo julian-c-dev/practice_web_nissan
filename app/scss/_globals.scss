@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography*/
+::selection {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-family-primary);
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--color-body);
+}
+
+::placeholder {
+  font-size: 1.15rem;
+  opacity: 0.5;
+}
