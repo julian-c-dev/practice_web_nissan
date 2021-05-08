@@ -37,6 +37,8 @@ body {
   font-size: 1.5rem;
   line-height: 1.4;
   color: var(--color-body);
+  padding: 0;
+  margin: 0;
 }
 
 ::-webkit-input-placeholder {
@@ -74,6 +76,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 1rem 0;
 }
 
 .callout__stripe:hover {
@@ -348,5 +351,17 @@ body {
 .grid {
   display: -ms-grid;
   display: grid;
+}
+
+.header {
+  -ms-grid-columns: 55% 45%;
+      grid-template-columns: 55% 45%;
+}
+
+@media screen and (max-width: 1044px) {
+  .header {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -8,75 +8,121 @@
     <link rel="stylesheet" href="/app/scss/styles.css" />
   </head>
   <body>
-    <div class="form">
-      <header class="form__title">
-        <h2>Search Nissan used vehicles</h2>
-        <div class="form__title-right">
-          <span>0 Saved Searches </span>
-          <span>9 favorites</span>
-        </div>
-      </header>
+    <div class="grid header">
+      <div class="form">
+        <header class="form__title">
+          <h2>Search Nissan used vehicles</h2>
+          <div class="form__title-right">
+            <span>0 Saved Searches </span>
+            <span>9 favorites</span>
+          </div>
+        </header>
 
-      <form action="">
-        <div class="form__inputs">
-          <div class="form__col1">
-            <div class="input-group">
-              <label for="search">Search</label>
-              <input
-                type="text"
-                id="search"
-                name="search"
-                placeholder="search your next car here, e.g. Nissan E-NV200"
-              />
+        <form action="">
+          <div class="form__inputs">
+            <div class="form__col1">
+              <div class="input-group">
+                <label for="search">Search</label>
+                <input
+                  type="text"
+                  id="search"
+                  name="search"
+                  placeholder="search your next car here, e.g. Nissan E-NV200"
+                />
+              </div>
+            </div>
+            <div class="grid form__col2">
+              <div class="input-group">
+                <label for="postcode">Postcode</label>
+                <input
+                  type="text"
+                  id="postcode"
+                  name="postcode"
+                  placeholder="N22 6HT"
+                />
+              </div>
+              <div class="input-group">
+                <label for="model">Model</label>
+                <input type="text" id="model" name="model" placeholder="Any" />
+              </div>
+            </div>
+            <div class="grid form__col3">
+              <div class="input-group">
+                <label for="budget">Budget</label>
+                <input
+                  type="text"
+                  id="budget"
+                  name="budget"
+                  placeholder="Any"
+                />
+              </div>
+              <div class="input-group">
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year" placeholder="Any" />
+              </div>
+              <div class="input-group">
+                <label for="mileage">Mileage</label>
+                <input
+                  type="text"
+                  id="mileage"
+                  name="mileage"
+                  placeholder="Any"
+                />
+              </div>
             </div>
           </div>
-          <div class="grid form__col2">
-            <div class="input-group">
-              <label for="postcode">Postcode</label>
-              <input
-                type="text"
-                id="postcode"
-                name="postcode"
-                placeholder="N22 6HT"
-              />
-            </div>
-            <div class="input-group">
-              <label for="model">Model</label>
-              <input type="text" id="model" name="model" placeholder="Any" />
-            </div>
-          </div>
-          <div class="grid form__col3">
-            <div class="input-group">
-              <label for="budget">Budget</label>
-              <input type="text" id="budget" name="budget" placeholder="Any" />
-            </div>
-            <div class="input-group">
-              <label for="year">Year</label>
-              <input type="text" id="year" name="year" placeholder="Any" />
-            </div>
-            <div class="input-group">
-              <label for="mileage">Mileage</label>
-              <input
-                type="text"
-                id="mileage"
-                name="mileage"
-                placeholder="Any"
-              />
-            </div>
-          </div>
-        </div>
-      </form>
+        </form>
 
-      <footer class="form__footer">
-        <div class="form__footer-left">
-          <span> Reset </span>
-          <span> Save Search </span>
+        <footer class="form__footer">
+          <div class="form__footer-left">
+            <span> Reset </span>
+            <span> Save Search </span>
+          </div>
+          <div class="form__footer-right">
+            <span> More Filters</span>
+            <button class="btn btn-primary">Search 3000 vehicles</button>
+          </div>
+        </footer>
+      </div>
+
+      <div class="callout">
+        <div class="callout__stripe">
+          <img class="callout__img" src="/images/Group 5.png" alt="" />
+          <div class="callout__text">
+            <h2>Easy Steps to Buy online</h2>
+            <p>Find the best option, buy online and receive it in your home.</p>
+          </div>
+          <img
+            class="callout__chevron"
+            src="/images/chevron-right.png"
+            alt=""
+          />
         </div>
-        <div class="form__footer-right">
-          <span> More Filters</span>
-          <button class="btn btn-primary">Search 3000 vehicles</button>
+        <div class="callout__stripe">
+          <img class="callout__img" src="/images/clou_question.png" alt="" />
+          <div class="callout__text">
+            <h2>Tips and advices</h2>
+            <p>Finance made easy for you.</p>
+          </div>
+          <img
+            class="callout__chevron"
+            src="/images/chevron-right.png"
+            alt=""
+          />
         </div>
-      </footer>
+        <div class="callout__stripe">
+          <img class="callout__img" src="/images/car.png" alt="" />
+          <div class="callout__text">
+            <h2>Nissan approved cars</h2>
+            <p>Extend warranty in a used Nissan.</p>
+          </div>
+          <img
+            class="callout__chevron"
+            src="/images/chevron-right.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
 
     <script src="/app/js/script.js"></script>
