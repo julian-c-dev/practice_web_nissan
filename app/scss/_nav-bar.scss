@@ -1,0 +1,64 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 5fr 95fr;
+}
+.nav-bar li {
+  list-style-type: none;
+}
+.nav-bar__both {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.nav-bar__top {
+  background-color: black;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav-bar__top .login {
+  margin-left: auto;
+}
+
+.nav-bar__top a,
+.nav-bar__top a:link,
+.nav-bar__top a:visited,
+.nav-bar__top a:active {
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.nav-bar__top a:hover {
+  text-shadow: 0.5px 0.3px white;
+}
+
+.nav-bar__top .top__items {
+  padding: 0.6rem 2rem 0.6rem 2rem;
+}
+
+/*nav BOTTOM*/
+
+.nav-bar__bottom {
+  color: black;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav-bar__bottom a:link,
+.nav-bar__bottom a:visited,
+.nav-bar__bottom a:active {
+  color: black;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.nav-bar__bottom a:hover {
+  color: var(--color-primary);
+}
+
+.nav-bar__bottom .bottom__items {
+  padding: 2.5rem 2rem 1rem 3rem;
+}
