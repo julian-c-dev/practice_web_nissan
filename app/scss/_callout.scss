@@ -41,16 +41,3 @@
 .callout__chevron {
   justify-self: flex-start;
 }
-
-@media screen and (min-width: 768px) {
-  .callout__img {
-    max-width: 120px;
-    max-height: 100px;
-  }
-  .callout__text h2 {
-    font-size: 1.8rem;
-  }
-  .callout__text p {
-    font-size: 1.6rem;
-  }
-}

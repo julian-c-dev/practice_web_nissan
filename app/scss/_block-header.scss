@@ -1,10 +1,4 @@
 .header {
   grid-template-columns: 55% 45%;
-  min-width: 768px;
-}
-
-@media screen and (max-width: 1044px) {
-  .header {
-    grid-template-columns: 100%;
-  }
+  min-width: 1348px;
 }
