@@ -15,7 +15,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: var(--font-family-primary);
+  font-family: $font-family-primary;
   font-size: 1.5rem;
   line-height: 1.4;
   color: var(--color-body);

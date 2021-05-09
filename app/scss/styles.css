@@ -1,15 +1,3 @@
-:root {
-  --color-primary: #d30018;
-  --color-secondary: #343434;
-  --color-icons: #a69494;
-  --heading: black;
-  --color-body: #3b3b3b;
-  --unchecked-star: rgb(246, 246, 195);
-  --font-family-primary: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica,
-    sans-serif;
-  --font-family-secondary: "Roboto", sans-serif;
-}
-
 *,
 *::after,
 *::before {
@@ -33,7 +21,7 @@ html {
 }
 
 body {
-  font-family: var(--font-family-primary);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica;
   font-size: 1.5rem;
   line-height: 1.4;
   color: var(--color-body);
@@ -80,7 +68,7 @@ body {
 }
 
 .callout__stripe:hover {
-  background-color: var(--color-primary);
+  background-color: #d30018;
 }
 
 .callout__img {
@@ -122,7 +110,7 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: #d30018;
   color: white;
 }
 
@@ -231,18 +219,6 @@ body {
 }
 
 /* inputs  */
-.input-group label {
-  font-size: 1.2rem;
-  padding: 0 1.5rem;
-}
-
-.input-group input {
-  outline: none;
-  border: none;
-  padding: 1rem;
-  width: 100%;
-}
-
 .input-group {
   margin: 1rem 0;
   display: -webkit-box;
@@ -254,6 +230,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.input-group label {
+  font-size: 1.2rem;
+  padding: 0 1.5rem;
+}
+
+.input-group input {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  width: 100%;
 }
 
 .grid {
@@ -339,7 +327,7 @@ body {
 }
 
 .nav-bar__bottom a:hover {
-  color: var(--color-primary);
+  color: #d30018;
 }
 
 .nav-bar__bottom .bottom__items {
@@ -501,5 +489,64 @@ body {
   .form__col3 .input-group:first-child {
     padding: 0;
   }
+}
+
+.card__frame {
+  max-width: 414px;
+  max-height: 310px;
+  position: relative;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__frame .card__img-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card__frame-sub {
+  color: lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub__group1 {
+  padding-left: 0.5rem;
+}
+
+.sub-numbers {
+  font-size: 1.2rem;
+}
+
+.card__frame-sub .btn {
+  padding: 1.5rem 1.2rem;
+  min-width: 8ch;
+  min-height: 30px;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.card__main h2 {
+  margin: 1.5rem 0;
+  font-size: 2.9rem;
+  text-align: center;
+}
+
+.card__main p {
+  margin: -1rem 0 5rem 0;
+  font-size: 2.3rem;
+  line-height: 1.1;
 }
 /*# sourceMappingURL=styles.css.map */

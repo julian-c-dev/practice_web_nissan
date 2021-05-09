@@ -1,11 +1,8 @@
-:root {
-  --color-primary: #d30018;
-  --color-secondary: #343434;
-  --color-icons: #a69494;
-  --heading: black;
-  --color-body: #3b3b3b;
-  --unchecked-star: rgb(246, 246, 195);
-  --font-family-primary: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica,
-    sans-serif;
-  --font-family-secondary: "Roboto", sans-serif;
-}
+$color-primary: #d30018;
+$color-icons: #a69494;
+$color-secondary: #343434;
+$color-body: #3b3b3b;
+$heading: black;
+$font-family-primary: Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica;
+$unchecked-star: rgb(246, 246, 195);
+$font-family-secondary: "Roboto", sans-serif;

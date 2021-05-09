@@ -1,23 +1,24 @@
 .nav-bar {
   display: grid;
   grid-template-columns: 5fr 95fr;
-}
-.nav-bar li {
-  list-style-type: none;
-}
-.nav-bar__both {
-  display: flex;
-  flex-flow: column nowrap;
-}
-.nav-bar__top {
-  background-color: black;
-  margin: 0;
-  padding-left: 0;
-  display: flex;
-}
 
-.nav-bar__top .login {
-  margin-left: auto;
+  li {
+    list-style-type: none;
+  }
+  &__both {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  &__top {
+    background-color: black;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+  }
+
+  &__top .login {
+    margin-left: auto;
+  }
 }
 
 .nav-bar__top a,
@@ -56,7 +57,7 @@
 }
 
 .nav-bar__bottom a:hover {
-  color: var(--color-primary);
+  color: $color-primary;
 }
 
 .nav-bar__bottom .bottom__items {

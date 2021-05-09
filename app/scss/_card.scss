@@ -1,0 +1,50 @@
+.card__frame {
+  max-width: 414px;
+  max-height: 310px;
+  position: relative;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__frame .card__img-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card__frame-sub {
+  color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub__group1 {
+  padding-left: 0.5rem;
+}
+.sub-numbers {
+  font-size: 1.2rem;
+}
+
+.card__frame-sub .btn {
+  padding: 1.5rem 1.2rem;
+  min-width: 8ch;
+  min-height: 30px;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.card__main h2 {
+  margin: 1.5rem 0;
+  font-size: 2.9rem;
+  text-align: center;
+}
+
+.card__main p {
+  margin: -1rem 0 5rem 0;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
