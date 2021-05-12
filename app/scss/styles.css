@@ -114,6 +114,17 @@ body {
   color: white;
 }
 
+.btn-secondary {
+  background-color: #343434;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  background-color: #d30018;
+}
+
 .form .btn {
   text-transform: uppercase;
   padding: 0.8rem 2rem;
@@ -491,6 +502,12 @@ body {
   }
 }
 
+/*It should be called media instead card*/
+.card {
+  max-width: 315px;
+  max-height: 625px;
+}
+
 .card__frame {
   max-width: 414px;
   max-height: 310px;
@@ -509,6 +526,7 @@ body {
 
 .card__frame-sub {
   color: lightgray;
+  margin-top: -0.44rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -525,28 +543,88 @@ body {
 }
 
 .sub-numbers {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .card__frame-sub .btn {
-  padding: 1.5rem 1.2rem;
+  padding: 1rem 1.2rem;
   min-width: 8ch;
   min-height: 30px;
   border: none;
   outline: none;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 .card__main h2 {
   margin: 1.5rem 0;
-  font-size: 2.9rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .card__main p {
-  margin: -1rem 0 5rem 0;
-  font-size: 2.3rem;
+  margin: -1rem 0 3rem 0;
+  font-size: 1.4rem;
   line-height: 1.1;
+}
+
+.card__spec {
+  font-size: 1.2rem;
+}
+
+.card__spec-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: 0.2rem 0;
+}
+
+.card__spec-row:last-child {
+  margin-top: 3rem;
+}
+
+.card__spec-row .fas {
+  color: #a69494;
+}
+
+.card__spec-price {
+  font-size: 1.7rem;
+}
+
+.card__spec-price2 {
+  font-size: 1.4rem;
+}
+
+.card__underline {
+  text-decoration: underline;
+}
+
+.card__history .fas {
+  font-size: 1.5rem;
+}
+
+.card__stars .fas {
+  font-size: 1.1rem;
+  margin-left: -4px;
+}
+
+.card__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card__rating div {
+  margin-left: 0.5rem;
+}
+
+.card .btn-secondary {
+  margin-top: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

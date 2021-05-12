@@ -1,3 +1,9 @@
+/*It should be called media instead card*/
+.card {
+  max-width: 315px;
+  max-height: 625px;
+}
+
 .card__frame {
   max-width: 414px;
   max-height: 310px;
@@ -15,6 +21,7 @@
 }
 .card__frame-sub {
   color: lightgray;
+  margin-top: -0.44rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,27 +31,74 @@
   padding-left: 0.5rem;
 }
 .sub-numbers {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .card__frame-sub .btn {
-  padding: 1.5rem 1.2rem;
+  padding: 1rem 1.2rem;
   min-width: 8ch;
   min-height: 30px;
   border: none;
   outline: none;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
 .card__main h2 {
   margin: 1.5rem 0;
-  font-size: 2.9rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .card__main p {
-  margin: -1rem 0 5rem 0;
-  font-size: 2.3rem;
+  margin: -1rem 0 3rem 0;
+  font-size: 1.4rem;
   line-height: 1.1;
+}
+
+.card__spec {
+  font-size: 1.2rem;
+}
+
+.card__spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0.2rem 0;
+  &:last-child {
+    margin-top: 3rem;
+  }
+  .fas {
+    color: $color-icons;
+  }
+}
+
+.card__spec-price {
+  font-size: 1.7rem;
+}
+.card__spec-price2 {
+  font-size: 1.4rem;
+}
+
+.card__underline {
+  text-decoration: underline;
+}
+.card__history .fas {
+  font-size: 1.5rem;
+}
+
+.card__stars .fas {
+  font-size: 1.1rem;
+  margin-left: -4px;
+}
+
+.card__rating {
+  display: flex;
+  div {
+    margin-left: 0.5rem;
+  }
+}
+
+.card .btn-secondary {
+  margin-top: 3rem;
 }

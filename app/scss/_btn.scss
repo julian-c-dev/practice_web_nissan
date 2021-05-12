@@ -10,6 +10,15 @@
     background-color: $color-primary;
     color: white;
   }
+  &-secondary {
+    background-color: #343434;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    &:hover {
+      background-color: $color-primary;
+    }
+  }
 }
 
 .form .btn {
