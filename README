@@ -1,0 +1,14 @@
+WEB practice // Second-hand cars selling website. 
+
+Last update: 13/May/2021 
+
+Designed by Marcia Elisabete Dos Santos.
+Developer by Julian Cantera.
+
+Tech: HTML & CSS/Sass
+
+Issues: 
+// responsive but need some adjutst on the breakpoints of some elements.
+// first proyect using the CSS pre processor Sass, it might be improved in the future (there are few mistakes on style.css
+// not JavaScript added. Next step. 
+
