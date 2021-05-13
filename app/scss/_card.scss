@@ -21,7 +21,7 @@
 }
 .card__frame-sub {
   color: lightgray;
-  margin-top: -0.44rem;
+  margin-top: -7px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,24 +40,24 @@
   min-height: 30px;
   border: none;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 
 .card__main h2 {
   margin: 1.5rem 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
 }
 
 .card__main p {
   margin: -1rem 0 3rem 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.1;
 }
 
 .card__spec {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .card__spec-row {
@@ -74,10 +74,10 @@
 }
 
 .card__spec-price {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 .card__spec-price2 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .card__underline {
