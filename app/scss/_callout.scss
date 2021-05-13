@@ -3,7 +3,7 @@
   margin: 0;
 }
 .callout__stripe {
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
   display: grid;
   grid-template-columns: 25% 60% 15%;
   grid-gap: 20px;

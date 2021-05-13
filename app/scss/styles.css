@@ -55,7 +55,7 @@ body {
 }
 
 .callout__stripe {
-  background-color: var(--color-secondary);
+  background-color: #343434;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 60% 15%;
@@ -321,12 +321,12 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .main__grid {
+  .main__grid .grid {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
-  .main__grid .card {
+  .main__grid .grid .card {
     border-top: none;
   }
 }
@@ -434,7 +434,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1044px) {
+@media screen and (max-width: 1360px) {
   .nav-bar {
     display: -webkit-box;
     display: -ms-flexbox;
